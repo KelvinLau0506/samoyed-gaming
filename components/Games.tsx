@@ -26,7 +26,7 @@ export default function Games() {
             title="Honor of Kings"
             subtitle="Voucher • Skin • Crystal"
             image="/images/hok.png"
-            href="/hok"
+            href="/honor-of-kings"
           />
 
           <GameCard

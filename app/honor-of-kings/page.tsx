@@ -2,9 +2,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import OrderForm from "@/components/OrderForm";
 import ProductGrid from "@/components/ProductGrid";
-import { peaceEliteProducts } from "@/data/products";
+import { honorOfKingsProducts } from "@/data/products";
 
-export default function PeaceElitePage() {
+export default function HonorOfKingsPage() {
   return (
     <>
       <Navbar />
@@ -14,7 +14,7 @@ export default function PeaceElitePage() {
 
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-cyan-400">
-              和平精英充值
+              王者荣耀充值
             </h1>
 
             <p className="mt-4 text-lg text-gray-400">
@@ -24,7 +24,7 @@ export default function PeaceElitePage() {
 
           <OrderForm />
 
-          <ProductGrid products={peaceEliteProducts} />
+          <ProductGrid products={honorOfKingsProducts} />
 
         </section>
       </main>
